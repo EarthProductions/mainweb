@@ -21,6 +21,14 @@ const Header = () => {
           <a href="#resellers" className="text-foreground hover:text-primary transition-colors">
             Resellers
           </a>
+          <a 
+            href="https://discord.gg/dN3fXfMyUB" 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className="text-foreground hover:text-primary transition-colors"
+          >
+            Discord
+          </a>
         </nav>
 
         <Button 
