@@ -1,6 +1,6 @@
 
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Mail, Smartphone, Globe } from "lucide-react";
+import { Cloud, Mail, Calendar, Globe } from "lucide-react";
 
 const Services = () => {
   const services = [
@@ -8,25 +8,25 @@ const Services = () => {
       icon: Cloud,
       title: "Cloud Opslag",
       description: "Onbeperkte ruimte voor al je bestanden. Upload, sync en deel je documenten veilig in de cloud.",
-      features: ["Onbeperkte opslag", "Automatische sync", "Bestanden delen", "Versie beheer"]
+      features: ["Onbeperkte opslag", "Bestanden delen"]
     },
     {
       icon: Mail,
       title: "Mail Services",
-      description: "Professionele e-mail services met je eigen domein. Betrouwbaar en spam-vrij.",
-      features: ["Custom domein", "Spam bescherming", "IMAP/POP3 support", "Webmail interface"]
+      description: "Professionele e-mail services verbonden met IMAP, POP & SMTP. Betrouwbaar en spam-vrij.",
+      features: ["IMAP/POP3/SMTP support", "Spam bescherming", "Webmail interface"]
     },
     {
-      icon: Smartphone,
-      title: "Mobiele Apps",
-      description: "Toegang tot je bestanden en e-mail vanaf elke locatie met onze mobiele applicaties.",
-      features: ["iOS & Android apps", "Offline toegang", "Push notificaties", "Biometrische beveiliging"]
+      icon: Calendar,
+      title: "Kalender Services",
+      description: "Plan en organiseer je afspraken met onze geïntegreerde kalender functionaliteit.",
+      features: ["Afspraken beheer", "Gedeelde kalenders", "Notificaties", "Synchronisatie"]
     },
     {
       icon: Globe,
-      title: "API Toegang",
-      description: "Integreer VentureCloud in je eigen applicaties met onze uitgebreide API.",
-      features: ["RESTful API", "SDK beschikbaar", "Realtime sync", "Uitgebreide documentatie"]
+      title: "Web Interface",
+      description: "Toegang tot al je services via een gebruiksvriendelijke web interface.",
+      features: ["Responsive design", "Cross-platform", "Real-time updates", "Gebruiksvriendelijk"]
     }
   ];
 

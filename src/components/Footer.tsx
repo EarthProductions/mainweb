@@ -36,8 +36,8 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-primary-foreground/80">
               <li><a href="#services" className="hover:text-primary-foreground transition-colors">Cloud Opslag</a></li>
               <li><a href="#services" className="hover:text-primary-foreground transition-colors">Mail Services</a></li>
-              <li><a href="#services" className="hover:text-primary-foreground transition-colors">API Toegang</a></li>
-              <li><a href="#services" className="hover:text-primary-foreground transition-colors">Mobiele Apps</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition-colors">Kalender Services</a></li>
+              <li><a href="#services" className="hover:text-primary-foreground transition-colors">Web Interface</a></li>
             </ul>
           </div>
 

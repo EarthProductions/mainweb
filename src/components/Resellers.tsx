@@ -80,7 +80,7 @@ const Resellers = () => {
               <div className="space-y-4">
                 <div className="text-center">
                   <p className="text-sm text-muted-foreground mb-4">
-                    Neem contact met ons op om deel te nemen aan het reseller programma. 
+                    Neem contact met ons op via Discord om deel te nemen aan het reseller programma. 
                     We helpen je graag op weg met de benodigde informatie en ondersteuning.
                   </p>
                 </div>
@@ -88,13 +88,13 @@ const Resellers = () => {
                 <Button 
                   className="w-full" 
                   size="lg"
-                  onClick={() => window.open('https://dash.venturecloud.nl/auth', '_blank')}
+                  onClick={() => window.open('https://discord.gg/dN3fXfMyUB', '_blank')}
                 >
                   Word Reseller Partner
                 </Button>
                 
                 <p className="text-xs text-center text-muted-foreground">
-                  Of neem contact op via onze dashboard voor meer informatie
+                  Join onze Discord community voor meer informatie
                 </p>
               </div>
             </CardContent>

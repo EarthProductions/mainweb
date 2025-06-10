@@ -16,8 +16,8 @@ const Pricing = () => {
         "Onbeperkte cloud opslag",
         "Gratis mail services",
         "Basis support",
-        "Mobiele apps",
-        "API toegang"
+        "Kalender services",
+        "Web interface"
       ],
       buttonText: "Gratis Starten",
       highlighted: true
@@ -97,7 +97,7 @@ const Pricing = () => {
                 <Button 
                   className="w-full" 
                   variant={plan.highlighted ? "default" : "outline"}
-                  onClick={() => window.open('https://dash.venturecloud.nl/auth', '_blank')}
+                  onClick={() => window.open('https://discord.gg/dN3fXfMyUB', '_blank')}
                 >
                   {plan.buttonText}
                 </Button>
