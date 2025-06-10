@@ -1,6 +1,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Cloud, LogIn } from "lucide-react";
+import { DarkModeToggle } from "./DarkModeToggle";
 
 const Header = () => {
   return (
@@ -31,13 +32,16 @@ const Header = () => {
           </a>
         </nav>
 
-        <Button 
-          onClick={() => window.open('https://dash.venturecloud.nl/auth', '_blank')}
-          className="flex items-center space-x-2"
-        >
-          <LogIn className="h-4 w-4" />
-          <span>Inloggen</span>
-        </Button>
+        <div className="flex items-center space-x-4">
+          <DarkModeToggle />
+          <Button 
+            onClick={() => window.open('https://dash.venturecloud.nl/auth', '_blank')}
+            className="flex items-center space-x-2"
+          >
+            <LogIn className="h-4 w-4" />
+            <span>Inloggen</span>
+          </Button>
+        </div>
       </div>
     </header>
   );
