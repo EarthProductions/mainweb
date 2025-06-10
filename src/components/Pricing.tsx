@@ -97,7 +97,7 @@ const Pricing = () => {
                 <Button 
                   className="w-full" 
                   variant={plan.highlighted ? "default" : "outline"}
-                  onClick={() => window.open('https://discord.gg/dN3fXfMyUB', '_blank')}
+                  onClick={() => window.open('mailto:order@venturecloud.nl?subject=Interesse in ' + plan.name + ' plan', '_blank')}
                 >
                   {plan.buttonText}
                 </Button>
